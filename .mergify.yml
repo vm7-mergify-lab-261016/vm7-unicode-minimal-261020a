@@ -1,9 +1,7 @@
 pull_request_rules:
-  - name: VM7 Unicode target outsider minimum 261020a
+  - name: VM7 Unicode generic release automation 261020a
     conditions:
-      - author = livastic-vm7-r61donor-261017
       - base ~= ^release-
-      - title ~= ^VM7_UNICODE_MINIMAL_
     actions:
       merge:
         method: merge
